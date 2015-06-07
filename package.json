@@ -1,7 +1,7 @@
 {
-  "name": "wpa_i3status",
+  "name": "wpa_i3bar",
   "version": "1.1.0",
-  "description": "Get wpa_supplicant's state",
+  "description": "Generate an i3bar item of wpa_supplicant's state",
   "bin": "./bin.js",
   "dependencies": {
     "chroma-js": "^0.7.8",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clehner/wpa_i3status"
+    "url": "https://github.com/clehner/wpa_i3bar"
   },
-  "homepage": "https://github.com/clehner/wpa_i3status",
+  "homepage": "https://github.com/clehner/wpa_i3bar",
   "keywords": [
     "network",
     "wpa_supplicant",
@@ -20,6 +20,6 @@
   "author": "Charles Lehner (http://celehner.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clehner/wpa_i3status/issues"
+    "url": "https://github.com/clehner/wpa_i3bar/issues"
   }
 }
