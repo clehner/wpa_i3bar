@@ -56,12 +56,9 @@ new WpaState(ifname)
   state = 'error'
   printStatus()
 })
-.on('state', function (s) {
-  state = s
-  printStatus()
-})
-.on('ssid', function (e) {
-  ssid = e
+.on('status', function (status) {
+  state = status.state
+  ssid = status.ssid
   printStatus()
 })
 .connect()
